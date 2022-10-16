@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -53%);
+  background-color: #fff;
+  width: 330px;
+  text-align: center;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px hsl(244, 61%, 81%);
+}
+.container .image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.container .heading {
+  font-size: 22px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  padding: 30px 0 20px 0;
+}
+.container .paragraph {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  width: 76%;
+  margin: auto;
+  color: hsl(224, 23%, 55%);
+}
+.planbox {
+  display: flex;
+
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  width: 85%;
+  margin: 20px auto 30px;
+  border-radius: 5px;
+  height: 70px;
+}
+.icon img {
+  width: 45px;
+  margin-left: 20px;
+}
+.plan {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+.plan .p2 {
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.change a {
+  margin-left: 60px;
+  font-size: 13px;
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+}
+.change a:hover {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+.proceed {
+  display: block;
+  background-color: hsl(245, 75%, 52%);
+  width: 85%;
+  margin: auto;
+  padding: 14px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 5px;
+  box-shadow: 0 8px 15px hsl(244, 61%, 81%);
+}
+.proceed:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+.cancel {
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+  margin: 25px auto;
+  width: 36%;
+}
+.cancel:hover{
+    color: hsl(245, 75%, 52%);
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 95vh;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
